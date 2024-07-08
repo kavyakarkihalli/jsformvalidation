@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0px;
+  padding: 0;
+  height: 10%;
+
+}
+
+.container {
+  max-width: fit-content;
+  margin: 200 px;
+  padding: 40px;
+  /* background-image: url("./logo.png");
+  height: 100vh;
+  width:100%;
+  background-position: center;
+  background-size: cover; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+button {
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 8px;
+  height: 45px;
+  font-size: 16px;
+  border: 1px solid #e2e4ee;
+  border-radius: 8px;
+}
+
+button {
+
+  width: 200px;
+  background: linear-gradient(270deg, #2fb8bb 0%, #97da92 100%);
+  box-shadow: 2px 4px 8px rgba(3, 128, 155, 0.26);
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15PX;
+  padding: 16px 32px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ui {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.ui_one {
+  display: flex;
+  gap: 83px;
+}
+
+.ui_two {
+  display: flex;
+  gap: 66px;
+}
+
+.ui_three {
+  display: flex;
+  gap: 104px;
+}
+
+.ui_four {
+  display: flex;
+  gap: 84px;
+}
+
+@media (max-width: 425px) {}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label input {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Adjust gap between radio button and label */
+}
+
+input[type="radio"] {
+  margin: 0;
+  /* Remove default margin */
+}
